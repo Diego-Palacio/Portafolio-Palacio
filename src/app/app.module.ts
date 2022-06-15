@@ -10,7 +10,8 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
 import { InicioComponent } from './Components/inicio/inicio.component';
 import { ContactoComponent } from './Components/contacto/contacto.component';
 import { SobreMiComponent } from './Components/sobre-mi/sobre-mi.component';
-import { ProyectosComponent } from './Components/proyectos/proyectos.component'
+import { ProyectosComponent } from './Components/proyectos/proyectos.component';
+import { ProyectoItemComponent } from './Components/proyecto-item/proyecto-item.component'
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ProyectosComponent } from './Components/proyectos/proyectos.component'
    ContactoComponent,
    SobreMiComponent,
    ProyectosComponent,
+   ProyectoItemComponent,
   ],
   imports: [
     BrowserModule,

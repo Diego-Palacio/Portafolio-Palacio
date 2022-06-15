@@ -12,4 +12,28 @@ export class ProyectosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  proyectos=[
+      {
+        src:"",
+        nombre:"Portafolio",
+        info:""
+      },
+      {
+        src:"",
+        nombre:"Ecommerce",
+        info:""
+      },
+      {
+        src:"",
+        nombre:"ViverosTP",
+        info:""
+      },
+      {
+        src:"",
+        nombre:"Python",
+        info:""
+      }
+  ]
+
+
 }
