@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input} from '@angular/core';
 
 @Component({
   selector: 'app-proyecto-item',
@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProyectoItemComponent implements OnInit {
 
-  constructor() { }
+@Input() nombreProyecto!:string;
+@Input() infoProyecto!:string;
+
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
+    console.warn(this.nombreProyecto)
   }
 
 }

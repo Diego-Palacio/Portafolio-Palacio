@@ -16,22 +16,22 @@ export class ProyectosComponent implements OnInit {
       {
         src:"",
         nombre:"Portafolio",
-        info:""
+        info:"Proyecto mi portafolio"
       },
       {
         src:"",
         nombre:"Ecommerce",
-        info:""
+        info:"Proyecto Ecommerce de Codo a Codo"
       },
       {
         src:"",
         nombre:"ViverosTP",
-        info:""
+        info:"Trabajo practico de la materia Ingenieria de Software"
       },
       {
         src:"",
         nombre:"Python",
-        info:""
+        info:"Practica ejercicios Python"
       }
   ]
 

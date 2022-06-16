@@ -1,4 +1,6 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+
+//se agrego "noImplicitAny:false para poder usar una variable en distintos componentes mediante hero
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -11,6 +13,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "noImplicitAny": false,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
