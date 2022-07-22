@@ -2,7 +2,7 @@
 <div class="d-flex flex-column align-items-center justify-content-center vh-100 " id="proyectos"> 
   <h1 class="text-center" > Proyectos</h1>
   <div class="row row-cols-1 row-cols-md-2 g-4 " style="border:1 px solid green">  
-    <div class="class" *ngFor="let proyecto of proyectos">
+    <div class="d-flex flex-column align-items-center justify-content-center mt-4" *ngFor="let proyecto of proyectos">
       <app-proyecto-item [nombreProyecto]="proyecto.nombre" [infoProyecto]="proyecto.info"></app-proyecto-item>    
     </div> 
   </div>
